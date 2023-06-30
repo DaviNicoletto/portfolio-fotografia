@@ -26,13 +26,19 @@ header{
     z-index: 0;
 }
 
-h1{
+header h1{
     font-weight:200;
     font-size: 50px;
     text-align: center;
     color: rgb(255, 255, 255);
     z-index: 1;
     padding: 20px;
+}
+
+h1{
+    font-family: 'Agdasima', sans-serif;
+    color: black;
+    margin-left: 20px;
 }
 
 #subtitulo{
@@ -44,7 +50,7 @@ h1{
 /* Botão "Sobre mim" */
 
 .button-sobre{
-    background-color: rgb(223, 211, 51);
+    background-color: rgb(230, 195, 41);
     border-radius: 3px;
     padding: 8px 10px;
     text-decoration: none;
@@ -76,6 +82,7 @@ h1{
 /* Menu de navegação */
 
 nav{
+    font-family: 'Rajdhani', sans-serif;
     display: flex;
     align-content: center;
     justify-content: space-evenly;
@@ -87,32 +94,75 @@ nav{
 nav a{
     position: relative;
     width: 15%;
-    
-    top: -20px;
-    color: rgb(230, 195, 41);
+    top: -40px;
+    color: rgb(247, 243, 238);
     text-align: center;
     align-self: center;
     text-decoration: none;
-    background: rgb(255, 255, 255);
+    background: rgb(230, 195, 41);
     border-radius: 3px;
     padding: 15px;
-    box-shadow: 1px 1px 5px rgb(39, 39, 39);
+    /* box-shadow: 1px 1px 5px rgb(39, 39, 39); */
     text-shadow: 1px 1px 2px rgb(255, 220, 124);
 }
 
 nav a:hover{
     box-shadow: 1px 1px 5px rgb(0, 0, 0);
-    border-left: 2px solid rgb(230, 195, 41);
-    border-right: 2px solid rgb(230, 195, 41);
+    border-right:2px solid white;
+    border-left:2px solid white;
+}
+
+/* Página "Fotografia Urbana" */
+
+.title-pag{
+    color: rgb(230, 195, 41);
+    text-align: center;
+    text-shadow: 1px 1px 2px rgb(235, 209, 97);
+}
+
+hr{
+    margin: 20px 15px 20px 15px;
+}
+
+.flex-container{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    display: flex;
+    gap: 3px;
+    flex-wrap: wrap;
+    grid-template-columns: 300px 300px 300px 300px;
+}
+
+
+.flex-item{
+    align-self: center;
+    width: 300px;
+}
+
+.fundo-pag{
+    padding: 15px;
+    background-color: rgb(247, 243, 238);
 }
 
 /* conteúdo da página */
 
 main{
+    padding-top: 100px;
     position: relative;
-    top: -100px;
+    top: -150px;
     margin-top: 0px;
-    background: rgb(243, 255, 79);
+    background-color: rgb(247, 243, 238);
     z-index: -1;
-    height: 150px;
+    height: 100%;
+}
+
+
+iframe{
+    /* border: 2px solid black; */
+    width: 100%;
+    height: 50px;
+    height: 1200px;
+    overflow: visible;
 }
