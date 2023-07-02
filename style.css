@@ -112,7 +112,7 @@ nav a:hover{
     border-left:2px solid white;
 }
 
-/* Página "Fotografia Urbana" */
+/* Páginas com FOTOS */
 
 .title-pag{
     color: rgb(230, 195, 41);
@@ -145,6 +145,44 @@ hr{
     padding: 15px;
     background-color: rgb(247, 243, 238);
 }
+
+
+/* Páginas com VIDEOS */
+
+.vid-container{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+
+    align-items: center;
+    gap:90px;
+}
+
+.vid-item{
+    width: 30%;
+}
+
+.title-pag-vid{
+    font-size: 40px;
+    color: rgb(230, 195, 41);
+    text-align: center;
+    text-shadow: 1px 1px 2px rgb(235, 209, 97);
+}
+
+.button-voltar{
+    display: inline-block;
+    position: absolute;
+    top: 45px;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 11px 15px;
+    border-radius: 7px;
+    color: white;
+    text-decoration: none;
+    background-color: rgb(230, 195, 41);
+}
+
 
 /* conteúdo da página */
 
