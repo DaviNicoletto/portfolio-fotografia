@@ -1,0 +1,42 @@
+.vid-container{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap:90px;
+    flex-wrap: wrap;
+}
+
+.vid-item{
+    width: 30%;
+}
+
+@media only screen and (max-width: 700px){
+    .vid-item{
+        width: 100%;
+    }
+}
+
+.title-pag-vid{   
+    font-family: 'Agdasima', sans-serif;
+    font-size: 40px;
+    color: rgb(230, 195, 41);
+    text-align: center;
+    text-shadow: 1px 1px 2px rgb(235, 209, 97);
+}
+
+.button-voltar{
+    display: inline-block;
+    position: absolute;
+    top: 30px;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 11px 15px;
+    border-radius: 7px;
+    color: white;
+    text-decoration: none;
+    background-color: rgb(230, 195, 41);
+}
+
+
