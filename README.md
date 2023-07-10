@@ -1,5 +1,6 @@
 # Porfolio de Fotografia
 
-:construction: Trabalho em progresso :construction:
 
-Este é o projeto de um site que tem como finalidade hospedar um portfolio de fotografia, com uma página sobre o fotógrafo e uma mostra de seu trabalho utilizando **apenas** HTML e CSS.
+Este é o projeto de um site que tem como finalidade exibir e divulgar um portfolio de fotografia, com uma mostra de seu trabalho utilizando **apenas** HTML e CSS.
+
+Foi montado de forma que o conteúdo do site é alterado conforme o usuário seleciona qual página gostaria de ver no menu de navegação.
